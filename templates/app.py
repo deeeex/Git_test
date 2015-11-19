@@ -24,7 +24,7 @@ def courses():
 def other():
     return render_template("/other.html", name="other",title="Other")
 #Hmmm, do we need another one?
-
+#Hmm.... What a funny question!  I'll make a comment
 
 if __name__ == '__main__':
     app.run(debug=True)		#debug=True is optional
